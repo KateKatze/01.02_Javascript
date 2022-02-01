@@ -11,27 +11,27 @@
 <body>
     <div id="result">
         <h3>My info</h3>
-        <form name="sum">
+        <div name="sum">
             <label for="fname">My first name:</label>
-            <input type="text" name="fname" value=" ">
+            <input type="text" class="zero" id="fname" value=" ">
             <br>
             <br>
             <label for="fname">My second name:</label>
-            <input type="text" name="lname" value=" ">
+            <input type="text" class="zero" id="lname" value=" ">
             <br>
             <br>
             <label for="fname">My age:</label>
-            <input type="text" name="bdate" value=" ">
+            <input type="text" class="zero" id="bdate" value=" ">
             <br>
             <br>
             <label for="profession">I´m working in:</label>
-            <input type="radio" name="IT" value=" " /> IT
-            <input type="radio" name="Hospitality" value=" " /> Hospitality
-            <input type="radio" name="Medicine" value=" " /> Medicine
+            <input type="radio" class="zero" id="IT" name="test" value="IT" /> IT
+            <input type="radio" class="zero" id="Hospitality" name="test" value="Hospitality" /> Hospitality
+            <input type="radio" class="zero" id="Medicine" name="test" value="Medicine" /> Medicine
             <br>
             <br>
-            <input type="submit" value="Submit" onClick="return submitData()">
-        </form>
+            <input type="submit" value="Submit" onClick="submitData()">
+        </div>
     </div>
 
     <div id="written"></div>
