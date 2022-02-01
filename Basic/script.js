@@ -6,6 +6,7 @@ function submitData() {
     var prof2 = document.getElementById("Hospitality").checked;
     var prof3 = document.getElementById("Medicine").checked;
     console.log(prof1, prof2, prof3);
+
     var prof = "";
     var color = "";
     switch (true) {
