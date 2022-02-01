@@ -1,5 +1,5 @@
 let santa = "not visible";
-var element = document.getElementById("pic")
+var element = document.getElementsByClassName("pic")
 
 function santaToggle() {
     if (santa == "not visible") {
