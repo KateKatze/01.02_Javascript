@@ -22,3 +22,6 @@ function santaToggle() {
 }
 
 document.getElementsByClassName("pic").addEventListener("click", santaToggle);
+
+
+// didn´t work, look the ex list 03.02
